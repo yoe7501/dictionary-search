@@ -10,7 +10,15 @@ const config: Config = {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        headerFont:"var(--headerFont)",
+        paragraphFont:"var(--paragraphFont)",
+        lighterFont:"var(--lighterFont)",
+        topBg:"var(--topBg)",
+        middle:"var(--middle)",
+        outer:"var(--outer)",
+        purple:"var(--purple)",
+        error:"var(--error)",
+
       },
     },
   },

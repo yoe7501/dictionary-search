@@ -7,11 +7,37 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.light{
+  --background: #ffffff;
+  --headerFont: #050505;
+  --paragraphFont: #2d2d2d;
+  --lighterFont: #e9e9e9;
+  --topBg: #757575;
+  --middle: #A445ED;
+  --outer: var(--middle)/50;
+  --purple: #A445ED; 
+  --error: #FF5252;
+
+  background: var(--background);
+  color: var(--headerFont);
+
+
+}
+
+.dark{
+  --background: #050505;
+  --headerFont: #ffffff;
+  --paragraphFont: #f4f4f4;
+  --lighterFont: #e9e9e9;
+  --topBg: #A445ED;
+  --middle: #A445ED;
+  --outer: var(--middle)/50;
+  --purple: #A445ED; 
+  --error: #FF5252;
+
+  background: var(--background);
+  color: var(--headerFont);
+
 }
 
 body {
