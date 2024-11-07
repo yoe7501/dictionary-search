@@ -1,1 +1,15 @@
-/*# sourceMappingURL=styles.css.map */
+.big {
+  @apply flex justify-center items-center h-screen w-screen;
+}
+
+.main {
+  @apply h-screen w-screen p-0 m-9 flex justify-center items-center;
+}
+
+.container {
+  @apply max-h-[737px];
+}
+
+.top {
+  @apply flex flex-row justify-between;
+}/*# sourceMappingURL=styles.css.map */

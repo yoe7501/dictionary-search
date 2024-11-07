@@ -1,7 +1,6 @@
 'use client'
-import Card from './components/card';
+import Card from './components/Card';
 import './styles/styles.css'
-import { useState } from "react";
 
 
 export default function Home() {

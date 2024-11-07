@@ -11,7 +11,15 @@ const Card = () => {
     }
     
   return (
-    <div>card</div>
+    <div className={`${isLight? "light": "dark"} big`}> 
+    <div className="container">
+        <div className='top'>
+            <img src="/images/logo.svg" alt="logo" />
+            <button onClick={toggleLight}><img src="/images/icon-moon.svg" alt="" /></button>
+        </div>
+
+    </div>
+    </div>
   )
 }
 
