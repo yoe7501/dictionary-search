@@ -18,6 +18,7 @@ const config: Config = {
         outer:"var(--outer)",
         purple:"var(--purple)",
         error:"var(--error)",
+        search:"var(--search)",
 
       },
     },

@@ -2,21 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  margin: 0;
-  padding: 0;
-}
+
 
 .light{
   --background: #ffffff;
   --headerFont: #050505;
   --paragraphFont: #2d2d2d;
-  --lighterFont: #e9e9e9;
+  --lighterFont: #757575;
   --topBg: #757575;
   --middle: #A445ED;
   --outer: var(--middle)/50;
   --purple: #A445ED; 
   --error: #FF5252;
+  --search: #e9e9e9;
 
   background: var(--background);
   color: var(--headerFont);
@@ -28,12 +26,13 @@ body{
   --background: #050505;
   --headerFont: #ffffff;
   --paragraphFont: #f4f4f4;
-  --lighterFont: #e9e9e9;
+  --lighterFont: #757575;
   --topBg: #A445ED;
   --middle: #A445ED;
   --outer: var(--middle)/50;
   --purple: #A445ED; 
   --error: #FF5252;
+  --search: #3a3a3a;
 
   background: var(--background);
   color: var(--headerFont);

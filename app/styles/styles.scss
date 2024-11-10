@@ -1,13 +1,93 @@
+
+
+
+
 .big{
-    @apply flex justify-center items-center h-screen w-screen
+    @apply flex justify-center gap-3 h-[100vh]
 }
-.main{
-    @apply h-screen w-screen p-0 m-9 flex justify-center items-center
-}
+
 .container{
-    @apply max-h-[737px]
+    @apply max-w-[737px] m-3
 
 }
 .top{
     @apply flex flex-row justify-between
+}
+
+.sliderContainer{
+    @apply bg-topBg w-[40px] h-[20px] rounded-full flex items-center justify-start p-1
+  
+}
+
+.sliderContainer.active {
+    @apply justify-end
+}
+
+.ball{
+    @apply bg-white w-[14px] h-[14px] rounded-full
+}
+.moon{
+    @apply fill-topBg
+}
+
+.searchBox{
+    @apply bg-search flex flex-row w-full justify-between rounded-md hover:ring-1 hover:ring-purple focus:outline-1 focus:outline-purple
+}
+
+.search{
+    color: var(--purple);
+    width: 40px;
+    height: 40px;
+    fill: var(--purple);
+}
+
+.searchInput {
+    @apply bg-search w-full h-10 rounded-l-md outline-none pl-3 text-paragraphFont
+}
+
+.headerWord{
+    @apply text-3xl sm:text-7xl my-2 font-semibold
+}
+
+.pronounce {
+    @apply text-base sm:text-2xl text-purple
+}
+svg.play{
+    @apply w-[48px] h-[48px] sm:w-[75px] sm:h-[75px]
+}
+
+.play{
+    @apply w-[48px] h-[48px] sm:w-[75px] sm:h-[75px] bg-outer rounded-full
+}
+
+.lineSection{
+    @apply flex flex-row gap-2 my-5
+}
+
+.line{
+    @apply w-full mt-3
+}
+
+.nounList{
+    @apply flex flex-col gap-3 
+}
+
+.listGroup{
+    @apply flex flex-row items-center gap-3 ml-5
+}
+
+.dot{
+    @apply w-1 h-1 bg-purple rounded-full p-1
+}
+
+.sectionFooter{
+    @apply flex flex-row gap-10
+}
+
+.sentence{
+    @apply m-3 mx-8 text-lighterFont
+}
+
+.footer {
+    @apply mt-1
 }
